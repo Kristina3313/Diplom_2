@@ -9,7 +9,7 @@ def api_client():
 
 
 @pytest.fixture
-@allure.title('Регистрируем пользователя')
+@allure.step('Регистрируем пользователя')
 def register_user_fixture(request):
     user = {}
 
